@@ -57,47 +57,5 @@ StructuredEnquiry/
 │ └── package.json
 └── README.md
 
----
 
-## 🔌 API Endpoint
 
-### POST /bookService
-
-**Request Body**
-```json
-{
-  "customerName": "Bhoomika",
-  "packageName": "Premium Service",
-  "vehicleType": "Car"
-}
-Response
-{
-  "success": true,
-  "message": "Service booked successfully"
-}
-Database Schema (Booking)
-
-customerName (String)
-
-packageName (String)
-
-vehicleType (String)
-
-bookingDate (Date)
-
-bookingStatus (String)
-Backend:
-cd backend
-npm install
-npm run dev
-Server runs on:http://localhost:5000
-Frontend:
-cd frontend
-npm install
-npm run dev
-Frontend runs on:http://localhost:5173
-This project is developed for educational purposes as part of the Structured Enquiry curriculum and demonstrates full-stack web development concepts.
-
-👩‍💻 Author
-Bhoomika Gudi
-Computer Science Engineering
